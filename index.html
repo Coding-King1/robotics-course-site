@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title> <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="nav-logo">Brand</a>
+            <ul class="nav-links" id="nav-links">
+                </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content" id="hero-content">
+                </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2 class="section-title">Why Learn Here?</h2>
+                <div class="features-grid" id="features-grid">
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="section bg-darker">
+            <div class="container about-container" id="about-content">
+                </div>
+        </section>
+
+        <section id="curriculum" class="section">
+            <div class="container">
+                <h2 class="section-title">Curriculum</h2>
+                <div class="tabs-container">
+                    <div class="tabs-header" id="tabs-header">
+                        </div>
+                    <div class="tabs-content" id="tabs-content">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section bg-darker">
+            <div class="container">
+                <h2 class="section-title">Plans & Pricing</h2>
+                <p class="section-subtitle">Choose the path that suits your goals.</p>
+                <div class="pricing-grid" id="pricing-grid">
+                    </div>
+                <p class="disclaimer text-center mt-2">Note: Checkout happens on a secure external platform.</p>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="accordion" id="faq-accordion">
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-darker">
+            <div class="container contact-wrapper">
+                <div class="contact-info" id="contact-info">
+                    </div>
+                <div class="contact-form-wrapper">
+                    <h3>Send a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                            <small id="char-count">0/500 characters</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container footer-content" id="footer-content">
+            </div>
+        <div class="copyright">
+            &copy; <span id="year"></span> <span id="footer-brand"></span>. All rights reserved.
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
