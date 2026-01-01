@@ -1,4 +1,4 @@
-# Robotics Education Website Template
+# Robotics Education Website Template.
 
 A lightweight, high-performance static website template for teaching robotics.
 Built with HTML, CSS, and Vanilla JavaScript. No backend or database required.
